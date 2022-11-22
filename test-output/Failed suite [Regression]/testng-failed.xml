@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Regression]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="NetBanking(failed)(failed)">
+    <classes>
+      <class name="learnSelenium.TestNg3">
+        <methods>
+          <include name="e"/>
+        </methods>
+      </class> <!-- learnSelenium.TestNg3 -->
+      <class name="learnSelenium.TestNG5">
+        <methods>
+          <include name="payment"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- learnSelenium.TestNG5 -->
+    </classes>
+  </test> <!-- NetBanking(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Regression]] -->
